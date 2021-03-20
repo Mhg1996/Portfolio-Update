@@ -4,11 +4,11 @@
   
   /* brand color palette */
   :root {
-    --primary: rgba(68, 88, 119, 1);
-    --secondary: rgba(146, 204, 206, 1);
-    --tertiary: rgba(49, 52, 61, 1);
+    --primary: rgb(4, 0, 230);
+    --secondary: rgb(216, 158, 0);
+    --tertiary: rgb(4, 30, 230);
     --dark: rgba(28, 29, 33, 1);
-    --light: rgba(238, 238, 247, 1);
+    --light: rgb(0, 0, 0);
   }
   
   body {
@@ -220,9 +220,6 @@
   }
   
   /* portfolio project images */
-  .run-buddy {
-    background-image: url("../images/02-run-buddy.jpg");
-  }
   
   .led-wall {
     background-image: url("../images/02-portfolio-1.jpg");
@@ -230,10 +227,6 @@
   
   .react-calc {
     background-image: url("../images/02-portfolio-2.jpg");
-  }
-  
-  .pastel-puzzles {
-    background-image: url("../images/02-portfolio-3.jpg");
   }
   
   .surf-report {
@@ -294,5 +287,11 @@
       flex-direction: column;
       align-items: flex-start;
     }
+  }
+
+  .photo{
+      height: 300px;
+      width: 300px;
+      margin: 0px 800px 0px 0px
   }
   
